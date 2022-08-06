@@ -30,5 +30,5 @@
 
 ### Решение задачи:
 
-- [Блок схема draw.io]()
-- [Решение задачи на языке С#]()
+- [Блок схема draw.io](https://github.com/Arbalet125/checkTest/blob/main/testCheckBlock.png)
+- [Решение задачи на языке С#](https://github.com/Arbalet125/checkTest/blob/main/Program.cs)
