@@ -35,3 +35,7 @@ for (int i = 0; i < array.Length; i++)
         }
     }
 }
+
+Console.WriteLine("Итого:");
+Console.WriteLine($"Изначальный массив: [{string.Join(", ", array)}]");
+Console.WriteLine($"Массив, который состоит из элементов первого: [{string.Join(", ", newArray)}]");
