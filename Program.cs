@@ -20,3 +20,18 @@ for (int i = 0; i < arrayLength; i++)
         newArraySize ++;
     }
 }
+
+string [] newArray = new string [newArraySize];
+
+for (int i = 0; i < array.Length; i++)
+{
+    string firstArrayElement = array[i];
+    int firstArrayElementLength = firstArrayElement.Length;
+    if (firstArrayElementLength <= compareNumber)
+    {
+        for (int j = 0; j < newArray.Length; j++)
+        {
+            newArray[j] = array[i];
+        }
+    }
+}
